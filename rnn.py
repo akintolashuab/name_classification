@@ -85,7 +85,7 @@ def train(line_tensor, category_tensor):
 current_loss = 0
 all_losses = []
 plot_steps, print_steps = 1000, 5000
-n_iters = 100000
+n_iters = 200000
 for i in range(n_iters):
     category, line, category_tensor, line_tensor = random_training_example(category_lines, all_categories)
     
